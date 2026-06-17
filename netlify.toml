@@ -1,0 +1,7 @@
+[[edge_functions]]
+  function = "protect-admin"
+  path = "/gestion-commandes.html"
+
+[[edge_functions]]
+  function = "analyze-card"
+  path = "/api/analyze-card"
