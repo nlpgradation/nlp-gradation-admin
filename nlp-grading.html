@@ -705,7 +705,7 @@ Réponds UNIQUEMENT en JSON, sans texte ni backticks :
 `});
 
   try {
-    const response = await fetch("/api/analyze-card", {
+    const response = await fetch("/.netlify/functions/analyze-card", {
       method:"POST",
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify({content:imageContent})
